@@ -1,0 +1,22 @@
+assistente-financeiro-voz/
+│
+├── src/
+│   ├── __init__.py
+│   ├── main.py                 # Script principal que orquestra tudo
+│   ├── audio_recorder.py       # Grava áudio do microfone
+│   ├── stt.py                  # Speech-to-Text com Whisper
+│   ├── chatgpt.py              # Integração com API do ChatGPT
+│   ├── tts.py                  # Text-to-Speech com gTTS
+│   └── currency_utils.py       # Funções extras para câmbio/moedas
+│
+├── notebooks/
+│   └── prototipo_colab.ipynb   # Versão original do Google Colab
+│
+├── config/
+│   └── prompt.txt              # Prompt personalizado para o ChatGPT (foco em moedas)
+│
+├── .env                        # Arquivo com suas chaves API (NÃO SUBIR PRO GITHUB!)
+├── .gitignore                  # Ignorar .env, __pycache__, etc.
+├── requirements.txt            # Dependências do projeto
+├── LICENSE                     # Licença MIT (recomendado)
+└── README.md                   # Documentação completa
